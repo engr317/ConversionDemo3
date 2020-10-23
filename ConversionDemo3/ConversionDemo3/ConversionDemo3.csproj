@@ -76,6 +76,14 @@
     <Content Include="images\mistymoon.jpg" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
+    <Content Include="_archive\examples.html" />
+    <Content Include="_archive\images\bloodmoon.jpg" />
+    <Content Include="_archive\images\cityscape.jpg" />
+    <Content Include="_archive\images\evergladesun.jpg" />
+    <Content Include="_archive\images\goldenhoursun.jpg" />
+    <Content Include="_archive\images\mistymoon.jpg" />
+    <Content Include="_archive\index.html" />
+    <Content Include="_archive\styles.css" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,9 +97,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="_archive\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
